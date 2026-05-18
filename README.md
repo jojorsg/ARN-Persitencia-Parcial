@@ -1,8 +1,6 @@
-
-===========================================================
-===     ÁRVORE RUBRO NEGRA COM PERSISTÊNCIA PARCIAL     ===
-===========================================================
-
+--------------------------------------------
+ÁRVORE RUBRO NEGRA COM PERSISTÊNCIA PARCIAL        
+--------------------------------------------
 Implementação em Java (openjdk 21.0.10) de uma árvore rubro-negra que utiliza máquina de ponteiros usando listas de modificações (mods) e back_pointers em cada nó. Cada alteração em um campo (esquerda, direita, pai, cor) é registrada com o número da nova versão, preservando o histórico. A busca recupera o valor cuja versão seja <= à versão consultada.
 
 ESTRUTURA DO PROJETO
