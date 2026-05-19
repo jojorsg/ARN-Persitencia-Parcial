@@ -1,0 +1,15 @@
+INC 1
+INC 2
+INC 3
+IMP 1
+IMP 2
+IMP 3
+REM 3
+IMP 4
+SUC 2 3
+SUC 2 4
+
+
+
+
+
