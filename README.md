@@ -69,16 +69,18 @@ COMO EXECUTAR
 FORMATO DA ENTRADA
 ------------------
 Cada linha contém uma operação:
-   INC <int>           -> insere inteiro e gera nova versão
-   REM <int>           -> remove inteiro (se existir) e gera nova versão
-   SUC <x> <versao>    -> sucessor de x na versão indicada
-   IMP <versao>        -> imprime árvore na versão indicada
+   - INC <int>           -> insere inteiro e gera nova versão
+   - REM <int>           -> remove inteiro (se existir) e gera nova versão
+   - SUC <x> <versao>    -> sucessor de x na versão indicada
+   - IMP <versao>        -> imprime árvore na versão indicada
 
 FORMATO DA SAÍDA
 ----------------
-- SUC: SUC <x> <versao> 
-       <resultado>
-- IMP: IMP <versao> 
+- SUC:  
+       SUC X versão  
+       resultado
+- IMP:  
+       IMP versão  
        Árvore <chave,profundidade,cor> (cada nó no formato "chave,profundidade,R/N" separados por espaço)
 
 AUTORES/DESENVOLVEDORES
